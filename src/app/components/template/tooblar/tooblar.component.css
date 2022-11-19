@@ -1,0 +1,12 @@
+.example-spacer {
+    flex: 1 1 auto;
+    background-color: #6ed57c;
+  }
+  .cor{
+    border: #6ed57c;
+    background-color: #6ed57c;
+  }
+  span{
+    margin-left: 2%;
+  }
+  

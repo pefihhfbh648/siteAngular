@@ -1,0 +1,60 @@
+<button mat-button [matMenuTriggerFor]="animals">
+  <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home" aria-placeholder="Menu"></mat-icon>
+</button>
+<!-- <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+</button> -->
+<mat-menu #animals="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="vertebrates">formulario</button>
+  <button mat-menu-item [matMenuTriggerFor]="invertebrates">ferias</button>
+
+  
+</mat-menu>
+
+<mat-menu #vertebrates="matMenu">
+  <button >campus</button>
+  <button mat-menu-item>Seu Nome</button>
+  <button mat-menu-item>Seu Sobrenome</button>
+  <button mat-menu-item>Endereço</button>
+  <button mat-menu-item>cidade</button>
+  <button mat-menu-item>Estado</button>
+</mat-menu>
+
+<mat-menu #invertebrates="matMenu">
+  <button>ferias</button>
+  <button mat-menu-item>Priar</button>
+  <button mat-menu-item>Cinema</button>
+  <button mat-menu-item>Festa</button>
+  <button mat-menu-item>Viajar</button>
+  <button mat-menu-item>Descansar</button>
+  
+</mat-menu>
+
+<mat-menu #fish="matMenu">
+  <!-- <button mat-menu-item>Baikal oilfish</button>
+  <button mat-menu-item>Bala shark</button>
+  <button mat-menu-item>Ballan wrasse</button>
+  <button mat-menu-item>Bamboo shark</button>
+  <button mat-menu-item>Banded killifish</button> -->
+</mat-menu>
+
+<!-- <mat-menu #amphibians="matMenu">
+  <button mat-menu-item>Sonoran desert toad</button>
+  <button mat-menu-item>Western toad</button>
+  <button mat-menu-item>Arroyo toad</button>
+  <button mat-menu-item>Yosemite toad</button>
+</mat-menu> -->
+
+<!-- <mat-menu #reptiles="matMenu">
+  <button mat-menu-item>Banded Day Gecko</button>
+  <button mat-menu-item>Banded Gila Monster</button>
+  <button mat-menu-item>Black Tree Monitor</button>
+  <button mat-menu-item>Blue Spiny Lizard</button>
+  <button mat-menu-item disabled>Velociraptor</button>
+</mat-menu> -->
+<!-- <a href="./slider.html">slider</a> -->
+
+
+
+
+
+
